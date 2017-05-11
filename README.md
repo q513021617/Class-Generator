@@ -4,14 +4,14 @@ A command line tool used to take away all the fun of writing object classes
 ## Using the tool
 ### In the command line
 For help:
-'''
+```
 python ClassGenerator.py [-h]
-'''
+```
 
 For java:
-'''
+```
 python ClassGenerator.py [-g] [-s] [-t] [-k] [-c classname] [-e extends] [-i implements] Type Variable ...
-'''
+```
 
 ### Definitions
 Options:
@@ -110,5 +110,5 @@ public class doe extends deer implements animal
 ## Dependencies
 python 2 to run the program
 
-# Future work
+## Future work
 Add more languages
