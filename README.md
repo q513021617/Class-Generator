@@ -1,8 +1,8 @@
-#Class Generator
+# Class Generator
 A command line tool used to take away all the fun of writing object classes
 
-##Using the tool
-###In the command line
+## Using the tool
+### In the command line
 For help:
 '''
 python ClassGenerator.py [-h]
@@ -13,7 +13,7 @@ For java:
 python ClassGenerator.py [-g] [-s] [-t] [-k] [-c classname] [-e extends] [-i implements] Type Variable ...
 '''
 
-###Definitions
+### Definitions
 Options:
     -h or --help            Shows how to use the tool
     -c or --classname       Name of the class
@@ -28,13 +28,13 @@ Arguments:
     Type            The type of the variable
     Variable        The name of the variable
 
-##Example
-###Console input
+## Example
+### Console input
 ```
 python ClassGenerator.py -g -s -t -k -c doe -e deer -i animal double a float f string str
 ```
 
-###Console output
+### Console output
 ```
 Valid input
 Generating doe.java file
@@ -42,7 +42,7 @@ File, ./Output/doe.java, has been created
 End of execution
 ```
 
-###File output
+### File output
 ```
 public class doe extends deer implements animal
 {
@@ -107,8 +107,8 @@ public class doe extends deer implements animal
 }
 ```
 
-##Dependencies
+## Dependencies
 python 2 to run the program
 
-#Future work
+# Future work
 Add more languages
