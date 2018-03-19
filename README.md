@@ -1,3 +1,4 @@
+# 类生成器,支持生成python,Java,cpp 的实体类
 # Class Generator
 A command line tool used to take away all the fun of writing object classes
 
